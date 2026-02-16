@@ -1,0 +1,9 @@
+{
+  "name": "project-management",
+  "version": "1.0.0",
+  "description": "Project management tools for kickoff, ideation, and feature planning",
+  "author": {
+    "name": "matrix-crew",
+    "email": "thearchitect9927@gmail.com"
+  }
+}

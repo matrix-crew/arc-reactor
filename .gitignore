@@ -1,0 +1,5 @@
+.DS_Store
+*.log
+.env
+.claude/*.local.md
+.claude/*.local.json

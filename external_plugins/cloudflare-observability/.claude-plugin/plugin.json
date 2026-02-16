@@ -1,0 +1,7 @@
+{
+  "name": "cloudflare-observability",
+  "description": "Cloudflare observability and monitoring tools",
+  "author": {
+    "name": "Cloudflare"
+  }
+}

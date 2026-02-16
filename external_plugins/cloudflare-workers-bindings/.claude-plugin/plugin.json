@@ -1,0 +1,7 @@
+{
+  "name": "cloudflare-workers-bindings",
+  "description": "Cloudflare Workers bindings management",
+  "author": {
+    "name": "Cloudflare"
+  }
+}

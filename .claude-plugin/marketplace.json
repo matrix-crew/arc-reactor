@@ -1,0 +1,115 @@
+{
+  "name": "arc-reactor",
+  "description": "A collection of useful Claude Code plugins by matrix-crew",
+  "owner": {
+    "name": "matrix-crew",
+    "email": "thearchitect9927@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "project-management",
+      "description": "Project management tools for kickoff, ideation, and feature planning",
+      "version": "1.0.0",
+      "source": "./plugins/project-management",
+      "category": "management"
+    },
+{
+      "name": "quality-assurance",
+      "description": "Quality assurance tools for exploratory testing and systematic bug discovery",
+      "version": "1.0.0",
+      "source": "./plugins/quality-assurance",
+      "category": "qa"
+    },
+    {
+      "name": "cloudflare-docs",
+      "description": "Cloudflare documentation access and search",
+      "category": "documentation",
+      "source": "./external_plugins/cloudflare-docs",
+      "homepage": "https://developers.cloudflare.com/agents/model-context-protocol/"
+    },
+    {
+      "name": "cloudflare-observability",
+      "description": "Cloudflare observability and monitoring tools",
+      "category": "monitoring",
+      "source": "./external_plugins/cloudflare-observability",
+      "homepage": "https://developers.cloudflare.com/agents/model-context-protocol/"
+    },
+    {
+      "name": "cloudflare-workers-bindings",
+      "description": "Cloudflare Workers bindings management",
+      "category": "development",
+      "source": "./external_plugins/cloudflare-workers-bindings",
+      "homepage": "https://developers.cloudflare.com/agents/model-context-protocol/"
+    },
+    {
+      "name": "cloudflare-workers-builds",
+      "description": "Cloudflare Workers build and deployment tools",
+      "category": "deployment",
+      "source": "./external_plugins/cloudflare-workers-builds",
+      "homepage": "https://developers.cloudflare.com/agents/model-context-protocol/"
+    },
+    {
+      "name": "context7",
+      "description": "Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context.",
+      "category": "development",
+      "source": "./external_plugins/context7",
+      "homepage": "https://context7.com/docs/clients/claude-code"
+    },
+    {
+      "name": "filesystem",
+      "description": "Filesystem operations and file management",
+      "category": "development",
+      "source": "./external_plugins/filesystem",
+      "homepage": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem"
+    },
+    {
+      "name": "firecrawl",
+      "description": "Web scraping and search capabilities with Firecrawl",
+      "category": "integration",
+      "source": "./external_plugins/firecrawl",
+      "homepage": "https://docs.firecrawl.dev/mcp-server"
+    },
+    {
+      "name": "memory",
+      "description": "Knowledge graph-based persistent memory system",
+      "category": "utility",
+      "source": "./external_plugins/memory",
+      "homepage": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory"
+    },
+    {
+      "name": "sequential-thinking",
+      "description": "Dynamic and reflective problem-solving with structured thinking",
+      "category": "utility",
+      "source": "./external_plugins/sequential-thinking",
+      "homepage": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking"
+    },
+    {
+      "name": "magic",
+      "description": "AI-driven tool that helps developers create beautiful, modern UI components instantly through natural language descriptions",
+      "category": "utility",
+      "source": "./external_plugins/magic",
+      "homepage": "https://github.com/21st-dev/magic-mcp"
+    },
+    {
+      "name": "vercel",
+      "description": "Vercel deployments and projects",
+      "category": "deployment",
+      "source": "./external_plugins/vercel",
+      "homepage": "https://vercel.com/docs/mcp/vercel-mcp"
+    },
+    {
+      "name": "n8n",
+      "description": "n8n workflow creation and management with AI support. Search nodes, validate workflows, manage templates, and create workflows efficiently.",
+      "category": "integration",
+      "source": "./external_plugins/n8n",
+      "homepage": "https://github.com/czlonkowski/n8n-mcp"
+    },
+    {
+      "name": "serena",
+      "description": "Professional coding agent with semantic coding tools for intelligent file operations, symbol-level editing, and memory management.",
+      "category": "development",
+      "source": "./external_plugins/serena",
+      "homepage": "https://github.com/oraios/serena"
+    }
+  ]
+}

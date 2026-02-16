@@ -1,0 +1,9 @@
+{
+  "name": "quality-assurance",
+  "version": "1.0.0",
+  "description": "Quality assurance tools for exploratory testing and systematic bug discovery",
+  "author": {
+    "name": "matrix-crew",
+    "email": "thearchitect9927@gmail.com"
+  }
+}

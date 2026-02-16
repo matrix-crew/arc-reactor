@@ -1,0 +1,7 @@
+{
+  "name": "cloudflare-workers-builds",
+  "description": "Cloudflare Workers build and deployment tools",
+  "author": {
+    "name": "Cloudflare"
+  }
+}

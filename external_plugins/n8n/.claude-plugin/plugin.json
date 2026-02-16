@@ -1,0 +1,7 @@
+{
+  "name": "n8n",
+  "description": "n8n workflow creation and management with AI support. Search nodes, validate workflows, manage templates, and create workflows efficiently.",
+  "author": {
+    "name": "czlonkowski"
+  }
+}

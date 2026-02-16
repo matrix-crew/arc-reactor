@@ -1,0 +1,7 @@
+{
+  "name": "filesystem",
+  "description": "Filesystem operations and file management",
+  "author": {
+    "name": "Anthropic"
+  }
+}

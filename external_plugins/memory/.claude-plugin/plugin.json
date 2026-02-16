@@ -1,0 +1,7 @@
+{
+  "name": "memory",
+  "description": "Knowledge graph-based persistent memory system",
+  "author": {
+    "name": "Anthropic"
+  }
+}
