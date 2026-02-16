@@ -1,5 +1,5 @@
 {
-  "name": "quality-assurance",
+  "name": "qa",
   "version": "1.0.0",
   "description": "Quality assurance tools for exploratory testing and systematic bug discovery",
   "author": {

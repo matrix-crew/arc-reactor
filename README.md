@@ -36,33 +36,30 @@ A collection of useful Claude Code plugins by matrix-crew, including both custom
 
 Project management tools for kickoff, status tracking, and feature planning.
 
-**Skills (auto-triggered):**
-- **Kickoff** - Activates on "start a new project", "design a new app", "create a project spec". Runs a 6-phase process (discovery → architecture → UI/UX → risk → kickoff.md → bootstrap) and outputs `specifications/kickoff.md`
-- **Ideation** - Activates on "suggest features", "what should I build next", "what's missing in this project". Analyzes the codebase and competitors to surface feature ideas
-- **Planning** - Activates on "plan this feature", "write a technical spec", "how should I architect this". Produces detailed tech spec, design decisions, risk analysis, and task breakdown
+**Skills:**
+- **Kickoff** (`/pm:kickoff`) - 6-phase new project design (discovery → architecture → UI/UX → risk → kickoff.md → bootstrap). Outputs `specifications/kickoff.md`
+- **Ideation** (`/pm:ideation`) - Analyzes codebase and competitors to surface feature ideas. Outputs to `ideations/`
+- **Planning** (`/pm:planning`) - Detailed tech spec, design decisions, risk analysis, and task breakdown. Outputs to `specifications/`
 
 **Usage:**
 
 ```
-# Skills trigger automatically:
-# "Let's design a new SaaS app"
-# "What features should I add next?"
-# "Write a technical spec for the payment system"
+/pm:kickoff          # Start a new project design
+/pm:ideation         # Discover feature opportunities
+/pm:planning         # Write a technical spec for a feature
 ```
 
 ### quality-assurance
 
 Quality assurance tools for exploratory testing and systematic bug discovery.
 
-**Skills (auto-triggered):**
-- **Exploratory Testing** - Activates on "find edge cases", "what could go wrong", "explore this code for bugs"
+**Skills:**
+- **Exploratory Testing** (`/qa:exploratory-testing`) - Systematic adversarial analysis with structured risk checklists and severity-rated reports
 
 **Usage:**
 
 ```
-# Skills trigger automatically:
-# "What edge cases could break this code?"
-# "Explore this feature for bugs"
+/qa:exploratory-testing   # Find edge cases and potential bugs
 ```
 
 ### cloudflare-docs
@@ -164,7 +161,7 @@ arc-reactor/
 │   ├── serena/
 │   └── vercel/
 ├── plugins/
-│   ├── project-management/       # Project management plugin
+│   ├── project-management/       # pm plugin
 │   │   ├── .claude-plugin/
 │   │   │   └── plugin.json
 │   │   └── skills/
@@ -174,7 +171,7 @@ arc-reactor/
 │   │       │   └── SKILL.md
 │   │       └── planning/
 │   │           └── SKILL.md
-│   └── quality-assurance/              # QA tools plugin
+│   └── quality-assurance/              # qa plugin
 │       ├── .claude-plugin/
 │       │   └── plugin.json
 │       └── skills/
