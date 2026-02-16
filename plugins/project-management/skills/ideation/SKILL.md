@@ -1,5 +1,5 @@
 ---
-name: Ideation
+name: ideation
 description: This skill should be used when the user asks to "suggest features", "what should I build next", "what's missing in this project", "analyze competitors", "find improvement opportunities", or wants ideas for new features, enhancements, or improvements to an existing project.
 ---
 

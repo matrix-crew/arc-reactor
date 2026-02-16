@@ -1,5 +1,5 @@
 ---
-name: Planning
+name: planning
 description: This skill should be used when the user asks to "plan this feature", "write a technical spec", "design the implementation for", "how should I architect this", "break this down into tasks", or has a specific feature in mind and needs a detailed implementation plan with technical spec, design decisions, and risk analysis.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Exploratory Testing
+name: exploratory-testing
 description: This skill should be used when the user asks to "explore this code for bugs", "find edge cases", "what could go wrong", "test this thoroughly", or when the user wants a comprehensive analysis of potential failure points in code.
 ---
 

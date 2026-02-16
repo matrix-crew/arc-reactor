@@ -1,5 +1,5 @@
 ---
-name: Kickoff
+name: kickoff
 description: This skill should be used when the user asks to "start a new project", "kick off a project", "design a new app", "set up project architecture", "create a project spec", "plan a new service", or discusses building something new from scratch. Guides a structured process from discovery interview through spec generation.
 ---
 
