@@ -110,6 +110,13 @@
       "category": "development",
       "source": "./external_plugins/serena",
       "homepage": "https://github.com/oraios/serena"
+    },
+    {
+      "name": "shadcn-ui",
+      "description": "shadcn/ui MCP server for accessing the entire shadcn/ui component registry. Get current component data, documentation, and implementation details directly from the source.",
+      "category": "development",
+      "source": "./external_plugins/shadcn-ui",
+      "homepage": "https://www.shadcn.io"
     }
   ]
 }
